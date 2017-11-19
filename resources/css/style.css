@@ -84,17 +84,35 @@ nav li {
   margin: 3rem auto;
 }
 
-.box {
+#products .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#products .box {
   border: 4px solid black;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.box h2 {
+.box h3 {
   background-color: black;
+  margin: 0;
+  padding: 0.5rem;
+  text-align: center;
 }
 
-.box img {
+#products .box img {
   height: 9rem;
   margin: 2rem auto;
+  /*border: 1px dashed green;*/
+}
+
+#glasses {
+  max-width: 85%;
+  max-height: auto;
 }
 
 #findus {
