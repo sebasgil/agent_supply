@@ -112,12 +112,11 @@ nav li {
 #products .box img {
   height: 9rem;
   margin: 2rem auto;
-  /*border: 1px dashed green;*/
 }
 
 #glasses {
   max-height: 45%;
-  border: 1px dashed red;
+  /*border: 1px dashed red;*/
 }
 
 #findus {
@@ -145,4 +144,10 @@ nav li {
 
 footer {
   background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  padding: 5rem 0;
 }
