@@ -12,10 +12,12 @@ header {
 header .container {
   display: flex;
 }
-/*fix this later*/
+
 header img {
   height: 1.5rem;
-  margin: 0.5rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
 }
 
 header h2 {
@@ -63,16 +65,19 @@ header h2 {
 
 #navigation {
   background-color: firebrick;
-  height: 1.5rem;
 }
 
-#navigation .container {
-
-}
 
 a {
   color: white;
   text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0.75rem 0;
 }
 
 nav li {
@@ -111,8 +116,8 @@ nav li {
 }
 
 #glasses {
-  max-width: 85%;
-  max-height: auto;
+  max-height: 45%;
+  border: 1px dashed red;
 }
 
 #findus {
