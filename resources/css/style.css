@@ -28,7 +28,7 @@ header h2 {
 .container {
   width: 960px;
   margin: 0 auto;
-  /*display: flex;*/
+  /*border: 1px dashed red;*/
 }
 
 #banner {
@@ -67,6 +67,9 @@ header h2 {
   background-color: firebrick;
 }
 
+#menu2 {
+  display: none;
+}
 
 a {
   color: white;
@@ -77,16 +80,17 @@ nav ul {
   display: flex;
   justify-content: space-between;
   margin: 0;
-  padding: 0.75rem 0;
+
 }
 
 nav li {
   display: inline;
+  padding: 0.75rem 0;
 }
 
 #products {
   background-color: white;
-  margin: 3rem;
+  margin: 3rem auto;
 }
 
 #products .container {
@@ -150,4 +154,32 @@ footer {
 
 footer p {
   padding: 5rem 0;
+}
+
+@media only screen and (max-width: 1024px){
+  .container {
+    /*border: 1px solid orange;*/
+    width: 100%;
+  }
+
+  #menu1 {
+    display: none;
+  }
+
+  #menu2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container #glassbox {
+    display: none;
+  }
+
+  #products .box {
+    width: 47%;
+  }
+
+  #findus .box {
+    width: 35%;
+  }
 }
