@@ -46,6 +46,7 @@ header h2 {
   background-color: black;
   margin-top: 9rem;
   font-weight: bold;
+  width: 100%;
 }
 
 #banner h2 {
@@ -181,5 +182,60 @@ footer p {
 
   #findus .box {
     width: 35%;
+  }
+}
+
+@media only screen and (max-width: 470px){
+  .container {
+    /*margin: auto;*/
+  }
+
+  #banner {
+    height: 15rem;
+  }
+
+  #banner .box {
+    margin-top: 10rem;
+    width: 100%;
+  }
+
+  #banner h2 {
+    font-size: 0.77rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+
+  #banner h1 {
+    font-size: 1rem;
+    margin-top: 0.25rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+
+  }
+
+  .container #watch {
+    display: none;
+  }
+
+  #products .container {
+    justify-content: center;
+  }
+
+  #products .box {
+    width: 90%;
+  }
+
+  #findus .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #findus .box {
+    width: 90%;
+  }
+
+  footer p {
+    text-align: center;
   }
 }
